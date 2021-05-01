@@ -47,20 +47,16 @@ console.log(tipoElemento(true))
 //addEventListener é uma função nativa do javascript, o primeiro parametro é o evento que ocorre e o segundo o callback
 // utilize essa função para mostrar no console o seu nome completo quando o evento scroll ocorrer.
 
-
+/*
 var nome = "Felipe";
 var sobrenome = "Portella"
-var nomeCompleto
+var nomeCompleto = nome + sobrenome;
 
-function somaNomes(){
-  var nomeCompleto = nome + sobrenome;
-  return nomeCompleto
-}
+addEventListener("scroll", function(){
+  console.log(nomeCompleto)
+})
 
-document.addEventListener(scroll, evento){
- evento = somaNomes();
-}
-
+*/
 
 
 
