@@ -9,7 +9,7 @@ var brasilCampeao = ["1958", "1962", "1970", "1994", "2002"]
 
 
 
-for(i=0; i < 5 ;i++){
+for(i=0; i < brasilCampeao.length ;i++){
   console.log(`O Brasil ganhou a copa de ${brasilCampeao[i]}`)
 }
 */
@@ -17,17 +17,25 @@ for(i=0; i < 5 ;i++){
 
 //interaja com um loop de frutas abaixo e pare ao chegar em pera
 
+/*
+var frutas = ["banana", "Maça", "Pera", "Uva", "Melancia"];
+for (i=0 ; i < frutas.length ; i++ ){
+if (frutas[i] == "Pera")
+console.log(`O item Pera estava na posição ${i+1}`)
+}
+*/
 
 var frutas = ["banana", "Maça", "Pera", "Uva", "Melancia"];
-frutas.forEach(function(i){
-if ( i == "Pera"){
-  break
-} else {
-  console.log(i)
+for (i=0 ; i < frutas.length ; i++ ){
+console.log(frutas[i]);
+if (frutas[i] === "Pera")
+break;
 }
-})
-
-
 
 //coloque a ultima fruta da array acima 
 //em uma variavel sem remover a mesma da arranjo
+/*
+ultimaFruta = frutas[4]
+*/
+// ultimaFruta = frutas.pop()
+// a versao com pop retira a melancia da var frutas
