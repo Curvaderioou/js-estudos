@@ -24,14 +24,14 @@ if (frutas[i] == "Pera")
 console.log(`O item Pera estava na posição ${i+1}`)
 }
 */
-
+/*
 var frutas = ["banana", "Maça", "Pera", "Uva", "Melancia"];
 for (i=0 ; i < frutas.length ; i++ ){
 console.log(frutas[i]);
 if (frutas[i] === "Pera")
 break;
 }
-
+*/
 //coloque a ultima fruta da array acima 
 //em uma variavel sem remover a mesma da arranjo
 /*
